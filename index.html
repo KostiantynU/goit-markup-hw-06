@@ -537,12 +537,14 @@
             ></textarea>
           </div>
           <div class="modal-form-field-check">
-            <span class="modal-icon"></span>
-            <label class="modal-label-check" for="subscribe"
-              >Погоджуюся з розсилкою та приймаю
+            <label class="modal-label-check" for="subscribe">
+              <input class="checkbox" type="checkbox" name="subscribe" id="subscribe" />
+              <svg width="16" height="15" class="modal-icon-svg-check">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+              <span class="modal-icon"></span>Погоджуюся з розсилкою та приймаю
               <a href="#" class="modal-link">Умови договору</a></label
             >
-            <input class="checkbox" type="checkbox" name="subscribe" id="subscribe" />
           </div>
           <button type="subscribe" class="btn-all modal-btn">Відправити</button>
 
